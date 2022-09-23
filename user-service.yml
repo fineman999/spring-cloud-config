@@ -7,9 +7,9 @@ spring:
 # token:
 #   expiration_time: 864000000
 #   secret: user_token_native_user_service
-
+# apigateway ip로 설정
 gateway:
-  ip: 10.10.10.154
+  ip: 13.209.0.4
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
