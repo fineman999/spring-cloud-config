@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: "{cipher}AQCLNZEW0rV4Ravoar/quoSd515odmFvug8tyhWvBDF7MInd3DsMxw10crsLmDBmidsxfBi34855zyPYqUGtFIzsBrFEOfg19Ct7HIo4+ohucBYMl6oFStFwU7EWtMetWbXsRpB9+WGOj9Zb53+9t8AayzAoAT0n6odRQeHoi3C2YZYRmUEWu3FDrzJpn0kxG5Xl95nggtu38S9XJTFV62XfmUI7BbFD7xiUggJOrQancwG2kuXDxb/jUdMV3lP/nAF2lGTCSs/UxwoZ7AgerOX5jdIeoHFQjYWOcR5IEAN7sVcN8KalVF9+f052e/GdHTcD1jbjU6Nsrrw1IqYky4/ZVPeaCHnULCf9tFH08ODyFvsQtvk6AgQ3lf5/X+9uvD3WWWouMoNbOSjJmjthF0WF8+Qmsg4exLnxmocrSmgQDNcYFtTVBTFqGjySmN0UCMc="
+    # username: sa
+    # password: "{cipher}AQCLNZEW0rV4Ravoar/quoSd515odmFvug8tyhWvBDF7MInd3DsMxw10crsLmDBmidsxfBi34855zyPYqUGtFIzsBrFEOfg19Ct7HIo4+ohucBYMl6oFStFwU7EWtMetWbXsRpB9+WGOj9Zb53+9t8AayzAoAT0n6odRQeHoi3C2YZYRmUEWu3FDrzJpn0kxG5Xl95nggtu38S9XJTFV62XfmUI7BbFD7xiUggJOrQancwG2kuXDxb/jUdMV3lP/nAF2lGTCSs/UxwoZ7AgerOX5jdIeoHFQjYWOcR5IEAN7sVcN8KalVF9+f052e/GdHTcD1jbjU6Nsrrw1IqYky4/ZVPeaCHnULCf9tFH08ODyFvsQtvk6AgQ3lf5/X+9uvD3WWWouMoNbOSjJmjthF0WF8+Qmsg4exLnxmocrSmgQDNcYFtTVBTFqGjySmN0UCMc="
+# token:
+#   expiration_time: 864000000
+#   secret: user_token_native_user_service
+
+gateway:
+  ip: 10.10.10.154
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    orders_is_empty: User's orders is empty.
+token:
+  expiration_time: 864000000
+  secret: "{cipher}AQAEWFTJRdbsNlAinvOYB++G8ZWC0+mF1aNQ1hj4Nu3KQynJzz11VWK0Yx7FvJT4464BVYxpUHL2UDKgFYSA+E7rYWwr+4qhdOY7iQ6DwcIxA9bzbabpTVvfTFVKD8nE4a8WKz0RP5J9GHb+4E1j3qmvL4lmyC2So9IiqlatVHeT2v1EyDTBt25lqfjo1Xvj+m4AyqZTEvjl5QOBQbuFSfBhwqGf6Cz1Cj7IyB7Iht/+ta94HYPLKMA5CUqTR75U7aeQxp3K56PNB+9VqY7M50WF7fO/88Wdi+JYGjMVOhZbrVkId+pPwcLbXHqAP+gF2QiaePZf28TLWbh5GvuchbHKg1eJ74iKSWap6hIkVYRqh391Z7xHKrlKQHKYM9lmSWzOY/nWPNchO2Jan+/OvNLt"
