@@ -9,7 +9,7 @@ spring:
 #   secret: user_token_native_user_service
 # apigateway ip로 설정
 gateway:
-  ip: 13.209.0.4
+  ip: 13.209.133.82
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
